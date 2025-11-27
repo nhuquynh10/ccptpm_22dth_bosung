@@ -40,9 +40,9 @@
             lbUserName.AutoSize = true;
             lbUserName.Location = new Point(120, 64);
             lbUserName.Name = "lbUserName";
-            lbUserName.Size = new Size(148, 20);
+            lbUserName.Size = new Size(81, 20);
             lbUserName.TabIndex = 0;
-            lbUserName.Text = "UserName qwertyuio";
+            lbUserName.Text = "UserName:";
             // 
             // txtUserName
             // 
@@ -103,5 +103,6 @@
         private TextBox txtPassword;
         private Label lbPassword;
         private Button btnLogin;
+        //cố tình thêm vô
     }
 }

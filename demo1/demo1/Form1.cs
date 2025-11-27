@@ -11,7 +11,7 @@ namespace demo1
         {
             if (txtPassword.Text == "admin" && txtUserName.Text == "admin")
             {
-                MessageBox.Show("login successful");
+                MessageBox.Show("login successful!");
             }
         }
     }
