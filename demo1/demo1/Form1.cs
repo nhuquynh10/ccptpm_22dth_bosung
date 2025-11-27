@@ -6,5 +6,13 @@ namespace demo1
         {
             InitializeComponent();
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            if (txtPassword.Text == "admin" && txtUserName.Text == "admin")
+            {
+                MessageBox.Show("login successful");
+            }
+        }
     }
 }
