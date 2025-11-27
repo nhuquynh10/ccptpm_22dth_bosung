@@ -28,33 +28,53 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            textBoxUserName = new TextBox();
+            lbUserName = new Label();
+            txtUserName = new TextBox();
+            txtPassword = new TextBox();
+            lbPassword = new Label();
             SuspendLayout();
             // 
-            // label1
+            // lbUserName
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(81, 74);
-            label1.Name = "label1";
-            label1.Size = new Size(78, 20);
-            label1.TabIndex = 0;
-            label1.Text = "UserName";
+            lbUserName.AutoSize = true;
+            lbUserName.Location = new Point(120, 64);
+            lbUserName.Name = "lbUserName";
+            lbUserName.Size = new Size(78, 20);
+            lbUserName.TabIndex = 0;
+            lbUserName.Text = "UserName qwertyuio";
             // 
-            // textBoxUserName
+            // txtUserName
             // 
-            textBoxUserName.Location = new Point(191, 67);
-            textBoxUserName.Name = "textBoxUserName";
-            textBoxUserName.Size = new Size(291, 27);
-            textBoxUserName.TabIndex = 1;
+            txtUserName.Location = new Point(229, 59);
+            txtUserName.Name = "txtUserName";
+            txtUserName.Size = new Size(241, 27);
+            txtUserName.TabIndex = 1;
+            // 
+            // txtPassword
+            // 
+            txtPassword.Location = new Point(229, 135);
+            txtPassword.Name = "txtPassword";
+            txtPassword.Size = new Size(241, 27);
+            txtPassword.TabIndex = 3;
+            // 
+            // lbPassword
+            // 
+            lbPassword.AutoSize = true;
+            lbPassword.Location = new Point(120, 140);
+            lbPassword.Name = "lbPassword";
+            lbPassword.Size = new Size(70, 20);
+            lbPassword.TabIndex = 2;
+            lbPassword.Text = "Password";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(textBoxUserName);
-            Controls.Add(label1);
+            Controls.Add(txtPassword);
+            Controls.Add(lbPassword);
+            Controls.Add(txtUserName);
+            Controls.Add(lbUserName);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -65,5 +85,10 @@
 
         private Label label1;
         private TextBox textBoxUserName;
+
+        private Label lbUserName;
+        private TextBox txtUserName;
+        private TextBox txtPassword;
+        private Label lbPassword;
     }
 }
